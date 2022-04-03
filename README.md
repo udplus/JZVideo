@@ -1,4 +1,4 @@
-高度自定义的安卓视频框架
+고도로 사용자 정의 안드로이드 비디오 프레임 워크
 
 [中文文档](http://jzvd.org)
 
@@ -6,7 +6,7 @@
 
 ## QuickStart
 
-1.添加类库
+1.클래스 라이브러리를 추가하십시오
 ```gradle
 implementation 'cn.jzvd:jiaozivideoplayer:7.7.0'
 ```
@@ -19,8 +19,8 @@ implementation 'cn.jzvd:jiaozivideoplayer:7.7.0'
     android:layout_height="200dp" />
 ```
 
-3.设置视频地址、缩略图地址、标题
-```java
+3.비디오 주소 설정, 축소판 주소, 제목을 설정하십시오
+```txt
 MyJzvdStd jzvdStd = (MyJzvdStd) findViewById(R.id.jz_video);
 jzvdStd.setUp("http://jzvd.nathen.cn/c6e3dc12a1154626b3476d9bf3bd7266/6b56c5f0dc31428083757a45764763b0-5287d2089db37e62345123a1be272f8b.mp4"
                             , "饺子闭眼睛");
